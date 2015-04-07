@@ -1,7 +1,7 @@
 {
   "name": "easycache",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "多功能的cache模块",
   "author": {
     "name": "继风",
@@ -19,6 +19,7 @@
     "url": "https://github.com/jifeng/easycache/issues"
   },
   "dependencies": {
+    "connect": "2.12.0",
     "fs-extra": "*",
     "options-stream": "*",
     "event-pipe": "*",
@@ -28,7 +29,6 @@
   },
   "devDependencies": {
     "request": "*",
-    "connect": "2.12.0",
     "supertest": "*",
     "mocha": "*",
     "expect.js": "*",
