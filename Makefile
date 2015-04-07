@@ -20,7 +20,6 @@ default: dev
 dev: clean
 	@$(-BIN_MOCHA) \
 		--colors \
-		--compilers coffee:coffee-script \
 		--reporter list \
 		--growl \
 		$(-TESTS)

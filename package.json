@@ -1,7 +1,7 @@
 {
   "name": "easycache",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "多功能的cache模块",
   "author": {
     "name": "继风",
@@ -19,18 +19,16 @@
     "url": "https://github.com/jifeng/easycache/issues"
   },
   "dependencies": {
-    "connect": "*",
     "fs-extra": "*",
     "options-stream": "*",
     "event-pipe": "*",
     "request": "*",
     "mredis": "*",
-    "lru-cache": "*",
-    "coffee-script": "*"
+    "lru-cache": "*"
   },
   "devDependencies": {
     "request": "*",
-    "connect": "*",
+    "connect": "2.12.0",
     "supertest": "*",
     "mocha": "*",
     "expect.js": "*",
