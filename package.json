@@ -25,7 +25,8 @@
     "event-pipe": "*",
     "request": "*",
     "mredis": "*",
-    "lru-cache": "*"
+    "lru-cache": "*",
+    "tair": "*"
   },
   "devDependencies": {
     "request": "*",
