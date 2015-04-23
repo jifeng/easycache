@@ -33,7 +33,8 @@
     "supertest": "*",
     "mocha": "*",
     "expect.js": "*",
-    "jscover": "*"
+    "jscover": "*",
+    "jm-spy": "*"
   },
   "scripts": {
     "test": "make test-cov"
