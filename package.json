@@ -1,7 +1,7 @@
 {
   "name": "easycache",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "多功能的cache模块",
   "author": {
     "name": "继风",
@@ -25,14 +25,16 @@
     "event-pipe": "*",
     "request": "*",
     "mredis": "*",
-    "lru-cache": "*"
+    "lru-cache": "*",
+    "tair": "*"
   },
   "devDependencies": {
     "request": "*",
     "supertest": "*",
     "mocha": "*",
     "expect.js": "*",
-    "jscover": "*"
+    "jscover": "*",
+    "jm-spy": "*"
   },
   "scripts": {
     "test": "make test-cov"

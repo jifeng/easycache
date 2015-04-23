@@ -10,7 +10,7 @@ easycache
 - memory (lru)
 - http server (mlru)
 - redis
-
+- tair
 
 ### 优点
 
@@ -25,6 +25,20 @@ npm install easycache
 ```
 
 ## 使用
+
+### tair
+
+```bash
+var cache = require('easycache');
+var tair = cache({
+  type: 'tair',
+  // 以下配置参考 tair 
+  dataId: 'datapid',
+  namespace: 1,
+  // 秒级别，默认 24小时
+  expire: 86400
+});
+```
 
 ### lru
 
