@@ -1,7 +1,7 @@
 {
   "name": "easycache",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "多功能的cache模块",
   "author": {
     "name": "继风",

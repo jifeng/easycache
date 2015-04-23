@@ -34,7 +34,9 @@ var tair = cache({
   type: 'tair',
   // 以下配置参考 tair 
   dataId: 'datapid',
-  namespace: 1
+  namespace: 1,
+  // 秒级别，默认 24小时
+  expire: 86400
 });
 ```
 
