@@ -42,7 +42,7 @@ describe('Cache support tair', function () {
     spy2.and.callFake(function (key, cb) {
       e(key).to.be('acbd18db4cc2f85cedef654fccc4a4d8');
       process.nextTick(function (){
-        return cb(null,{data: 'bar'})
+        return cb(null, 'bar')
       });
     });
     cache.get('foo', function (err, result) {
