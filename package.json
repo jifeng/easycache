@@ -1,7 +1,7 @@
 {
   "name": "easycache",
   "main": "index.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "多功能的cache模块",
   "author": {
     "name": "继风",
@@ -24,9 +24,9 @@
     "options-stream": "*",
     "event-pipe": "*",
     "request": "*",
-    "mredis": "*",
-    "lru-cache": "*",
-    "tair": "*",
+    "mredis": "1.2.2",
+    "lru-cache": "2.7.0",
+    "tair": "2.6.0",
     "bluebird": "3.0.5"
   },
   "devDependencies": {
